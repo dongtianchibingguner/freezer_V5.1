@@ -1,0 +1,159 @@
+.navbar-nav {
+	width: 830px;
+	margin: 50px 0 0 113px;
+}
+
+.nav> li> a {
+	padding: 10px 12px;
+	font-size: 12px;
+}
+.mangguo p:nth-child(2) {
+	margin-top: 34px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.navbar-nav > li:nth-of-type(4), .navbar-nav > li:nth-of-type(5), .navbar-nav > li:nth-of-type(6){
+	margin-left: 28px;
+}
+@media screen and (max-width: 1024px) {
+	/*=====修改过=====*/
+	.nav> li> a {
+		font-size: 12px;
+		padding: 10px 6px;
+	}
+	.navbar-nav {
+		width: 570px;
+	}
+	.navbar-nav> li:nth-of-type(n) {
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.navbar-nav> li:nth-of-type(1),
+	.navbar-nav> li:nth-of-type(6) {
+		top: 11px;
+	}
+	.navbar-nav> li:nth-of-type(2) {
+		width: 54px;
+	}
+	.navbar-nav> li:nth-of-type(2)>a {
+		padding: 10px 5px;
+	}
+	.navbar-nav> li:nth-of-type(3) {
+		width: 85px;
+	}
+	.navbar-nav> li:nth-of-type(3)>a {
+		padding: 10px 2px;
+	}
+	.navbar-nav> li:nth-of-type(5) {
+		width: 69px;
+	}
+	.navbar-nav> li:nth-of-type(5)>a {
+		padding: 10px 5px;
+	}
+	.navbar-nav> li:nth-of-type(4) {
+		width: 58px;
+	}
+	.navbar-nav > li:nth-of-type(4), .navbar-nav > li:nth-of-type(5), .navbar-nav > li:nth-of-type(6){
+	margin-left: 9px;
+	}
+	.navbar-nav {
+		margin: 40px 0 0 115px;
+	}
+	/*================*/
+}
+
+@media screen and (max-width: 769px) and (max-height: 1024px) {
+	.navbar-nav {
+		margin: 40px 0 0 70px;
+		width: 550px;
+	}
+	.navbar-nav > li:nth-of-type(4), .navbar-nav > li:nth-of-type(5), .navbar-nav > li:nth-of-type(6){
+	margin-left: 3px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.navbar-nav> li:nth-of-type(1), .navbar-nav> li:nth-of-type(6){
+		top: 0px;
+	}
+}
+@media screen and (max-width: 675px) and (min-width: 638px){
+#shuiguo #shop2 {
+    margin-top: 0px;
+}}
+@media screen and (max-width: 585px) and (min-width: 569px){
+#shuiguo #shop4 {
+    margin-top: 25px;
+}
+}
+@media screen and (max-width: 582px){
+#shuiguo #shop2 {
+    margin-top: 25px;
+}
+}
+@media screen and (max-width: 550px){
+	#shuiguo #shop2 {
+	    margin-top: 25px;
+	}
+}
+@media screen and (max-width: 414px){
+	#shuiguo #shop2 {
+	    margin-top: 0px;
+	}
+}
+@media screen and (max-width: 360px){
+	#shuiguo #shop2 {
+	    margin-top: 25px;
+	}
+}
+@media screen and (max-width: 320px){
+	#shuiguo #shop2 {
+	    margin-top: 0px;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 51px) {
+	.mangguo p:nth-child(2) {
+		font-size: 12px;
+	}
+	#shuiguo .mangguo .demo {
+		font-size: 12px;
+	}
+	.navbar-nav> li:nth-of-type(n) {
+		word-wrap: normal;
+		text-align: center;
+		margin: auto;
+	}
+	.navbar-nav> li:nth-of-type(n)> a {
+		padding: 10px 0;
+	}
+	.navbar-nav {
+		margin: 0;
+		height: 240px;
+		width: 100%;
+	}
+	.navbar-nav> li:nth-of-type(1) {
+		width: 50px;
+		top: 0;
+	}
+	.navbar-nav> li:nth-of-type(2) {
+		width: 72px;
+	}
+	.navbar-nav> li:nth-of-type(3) {
+		width: 145px;
+	}
+	.navbar-nav> li:nth-of-type(4) {
+		width: 75px;
+		top: 0;
+	}
+	.navbar-nav> li:nth-of-type(5) {
+		width: 84px;
+	}
+	.navbar-nav> li:nth-of-type(6) {
+		width: 90px;
+	}
+}
+
+
+/*# sourceMappingURL=navEnglish.css.map */
+
+
